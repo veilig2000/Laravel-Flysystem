@@ -14,7 +14,7 @@ namespace GrahamCampbell\Flysystem\Adapters;
 use Aws\S3\S3Client;
 use GrahamCampbell\Manager\ConnectorInterface;
 use InvalidArgumentException;
-use League\Flysystem\AwsS3v3\AwsS3Adapter;
+use App\Ine\Models\AwsS3Adapter;
 
 /**
  * This is the awss3 connector class.
